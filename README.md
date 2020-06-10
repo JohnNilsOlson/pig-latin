@@ -41,20 +41,7 @@ operation: treat 'y' as consonant
 input: yarn
 output: arn'y''ay'
 
-8. multiple word sentences
-operation: include all words within string
-input: hello world
-output: ello'h''ay'
 
-9. handle punctuation
-operation: keep punctuation in-tact
-input: hello world!
-output: ello'h''ay' orld'w''ay'!
-
-10. sentence casing
-operation: use correct sentence casing
-input: Hello world!
-output: 'E'llo'h''ay' orld'w''ay'!
 
 ## Setup/Installation Requirements
 
