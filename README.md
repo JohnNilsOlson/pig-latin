@@ -6,7 +6,48 @@
 
 ## Description
 
-_Calculate Leap Years from user entry via a html page_
+1. non-alphabetical character
+operation: nothing
+input: 3
+output: 3
+
+2. word begins in vowel
+operation: add 'way' to end
+input: errand
+output: errand'way'
+
+3. word begins w/ consonant(s)
+operation: move consecutive consonant(s) to end
+input: trumpet
+output: umpet'tr''ay'
+
+4. consonant prefix includes 'qu'
+operation: move 'qu' to end
+input: question
+output: estion'qu''ay'
+
+input: squeal
+output: eal'squ''ay'
+
+5. word begins w/ 'y'
+operation: treat 'y' as consonant
+input: yarn
+output: arn'y''ay'
+
+6. multiple word sentences
+operation: include all words within string
+input: hello world
+output: ello'h''ay'
+
+7. handle punctuation
+operation: keep punctuation in-tact
+input: hello world!
+output: ello'h''ay' orld'w''ay'!
+
+8. sentence casing
+operation: use correct sentence casing
+input: Hello world!
+output: 'E'llo'h''ay' orld'w''ay'!
 
 ## Setup/Installation Requirements
 
