@@ -25,13 +25,13 @@ function pigLatin(inputChar) {
     [(inputChar).push(output2 + "ay")];
     resultsString = inputChar.join("");
     return (resultsString);
-  } else if (consonants.indexOf(inputChar[0] >= 0)) {
+  } else if (consonants.indexOf(inputChar[0]) >= 0) {
     output = (inputChar).shift();
     [(inputChar).push(output + "ay")];
     resultsString = inputChar.join("");
     return (resultsString);
   } else {
-    return (inputChar);
+    return (inputChar.join(""));
   }
 }
 

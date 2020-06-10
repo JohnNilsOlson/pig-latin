@@ -68,13 +68,3 @@ _jQuery_
 
 ### License
 
-
-Copyright (c) 2016 **_Joseph Pearce_**
-
-
-behavior - plain english	operation	input	output
-word begins in vowel	add 'way' to end	errand	errandway
-word begins with consonant(s)	move consecutive consonant to end	trumpet	umpettray
-consonant prefix includes (qu)	move qu to end	question	estionquay
-	move qu to end	squeal	ealsquay
-word begins with y	y is consonant	yarn	arnyay
