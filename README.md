@@ -16,35 +16,42 @@ operation: add 'way' to end
 input: errand
 output: errand'way'
 
-3. word begins w/ consonant(s)
-operation: move consecutive consonant(s) to end
+3. word begins with consonant
+operation: move first letter to end and add 'ay'
+input: boy
+output: oybay
+
+4. word begins w/ consonants
+operation: move consecutive consonants to end and add 'ay'
 input: trumpet
 output: umpet'tr''ay'
 
-4. consonant prefix includes 'qu'
-operation: move 'qu' to end
+5. word begins with 'qu'
+operation: move 'qu' to end and add 'ay'
 input: question
 output: estion'qu''ay'
 
+6. word begins with (x)qu
+operation: move first consonant and 'qu' to end and add 'ay'
 input: squeal
 output: eal'squ''ay'
 
-5. word begins w/ 'y'
+7. word begins with 'y'
 operation: treat 'y' as consonant
 input: yarn
 output: arn'y''ay'
 
-6. multiple word sentences
+8. multiple word sentences
 operation: include all words within string
 input: hello world
 output: ello'h''ay'
 
-7. handle punctuation
+9. handle punctuation
 operation: keep punctuation in-tact
 input: hello world!
 output: ello'h''ay' orld'w''ay'!
 
-8. sentence casing
+10. sentence casing
 operation: use correct sentence casing
 input: Hello world!
 output: 'E'llo'h''ay' orld'w''ay'!
